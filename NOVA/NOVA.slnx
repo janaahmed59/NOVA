@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="NOVA.API/NOVA.API.csproj" />
+  <Project Path="NOVA.Application/NOVA.Application.csproj" />
+  <Project Path="NOVA.Domain/NOVA.Domain.csproj" />
+  <Project Path="NOVAInfrastructure/NOVAInfrastructure.csproj" />
+</Solution>

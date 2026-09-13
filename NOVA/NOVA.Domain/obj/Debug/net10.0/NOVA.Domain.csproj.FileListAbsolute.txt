@@ -1,0 +1,11 @@
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\bin\Debug\net10.0\NOVA.Domain.deps.json
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\bin\Debug\net10.0\NOVA.Domain.dll
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\bin\Debug\net10.0\NOVA.Domain.pdb
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\NOVA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\NOVA.Domain.AssemblyInfoInputs.cache
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\NOVA.Domain.AssemblyInfo.cs
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\NOVA.Domain.csproj.CoreCompileInputs.cache
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\NOVA.Domain.dll
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\refint\NOVA.Domain.dll
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\NOVA.Domain.pdb
+E:\janjonnnn\NOVA\NOVA\NOVA.Domain\obj\Debug\net10.0\ref\NOVA.Domain.dll
