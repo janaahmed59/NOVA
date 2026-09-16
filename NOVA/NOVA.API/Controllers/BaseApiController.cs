@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NOVA.API.Common.Mapping;
 using NOVA.API.Common.Responses;
 using NOVA.Domain.Common.Results;
+using NOVA.Application.Pagination;
 
 namespace NOVA.API.Controllers
 {

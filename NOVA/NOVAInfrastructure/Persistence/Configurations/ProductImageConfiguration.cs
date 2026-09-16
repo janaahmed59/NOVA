@@ -14,8 +14,8 @@ namespace NOVAInfrastructure.Persistence.Configurations
                 .IsRequired()
                 .HasMaxLength(500);
 
-            //builder.Property(pi => pi.IsMain)
-            //    .HasDefaultValue(false);
+            builder.Property(pi => pi.IsMain)
+                .HasDefaultValue(false);
         }
     }
 }

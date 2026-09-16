@@ -8,6 +8,7 @@ E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.Application.Gener
 E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.Application.AssemblyInfoInputs.cache
 E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.Application.AssemblyInfo.cs
 E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.Application.csproj.CoreCompileInputs.cache
+E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.Application.sourcelink.json
 E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.App.7EAA50E1.Up2Date
 E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\NOVA.Application.dll
 E:\janjonnnn\NOVA\NOVA\NOVA.Application\obj\Debug\net10.0\refint\NOVA.Application.dll

@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\janjonnnn\\NOVA\\NOVA\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E35A384-48EE-8EA4-6220-8F0516DE8B6E}|NOVA.API\\NOVA.API.csproj|e:\\janjonnnn\\nova\\nova\\nova.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E35A384-48EE-8EA4-6220-8F0516DE8B6E}|NOVA.API\\NOVA.API.csproj|solutionrelative:nova.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E35A384-48EE-8EA4-6220-8F0516DE8B6E}|NOVA.API\\NOVA.API.csproj|e:\\janjonnnn\\nova\\nova\\nova.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E35A384-48EE-8EA4-6220-8F0516DE8B6E}|NOVA.API\\NOVA.API.csproj|solutionrelative:nova.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,36 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "NOVA.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "NOVA.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T11:02:25.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NOVA.API\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NOVA.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T10:59:47.753Z",
+              "EditorCaption": ""
             }
           ]
         }

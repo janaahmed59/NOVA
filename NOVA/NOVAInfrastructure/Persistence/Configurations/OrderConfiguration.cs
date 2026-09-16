@@ -17,8 +17,8 @@ namespace NOVAInfrastructure.Persistence.Configurations
                 .HasConversion<string>()
                 .HasMaxLength(20);
 
-            //builder.Property(o => o.CreatedAt)
-            //    .HasDefaultValueSql("GETUTCDATE()");
+            builder.Property(o => o.CreatedAt)
+                .HasDefaultValueSql("GETUTCDATE()");
 
             builder.HasMany(o => o.OrderItems)
                 .WithOne(oi => oi.Order)

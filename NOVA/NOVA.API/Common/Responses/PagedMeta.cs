@@ -1,6 +1,10 @@
 ﻿namespace NOVA.API.Common.Responses
 {
-    public class PagedMeta
+    public sealed class PagedMeta
     {
+        public int Page { get; init; }
+        public int PageSize { get; init; }
+        public int TotalItems { get; init; }
+        public int TotalPages { get; init; }
     }
 }

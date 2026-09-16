@@ -20,11 +20,11 @@ namespace NOVAInfrastructure.Persistence.Configurations
             builder.Property(p => p.Price)
                 .HasPrecision(18, 2);
 
-            //builder.Property(p => p.IsActive)
-            //    .HasDefaultValue(true);
+            builder.Property(p => p.IsActive)
+                .HasDefaultValue(true);
 
-            //builder.Property(p => p.CreatedAt)
-            //    .HasDefaultValueSql("GETUTCDATE()");
+            builder.Property(p => p.CreatedAt)
+                .HasDefaultValueSql("GETUTCDATE()");
 
             builder.HasOne(p => p.Category)
                 .WithMany(c => c.Products)

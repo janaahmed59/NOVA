@@ -16,8 +16,8 @@ namespace NOVAInfrastructure.Persistence.Configurations
             builder.Property(r => r.Comment)
                 .HasMaxLength(1000);
 
-            //builder.Property(r => r.CreatedAt)
-            //    .HasDefaultValueSql("GETUTCDATE()");
+            builder.Property(r => r.CreatedAt)
+                .HasDefaultValueSql("GETUTCDATE()");
 
             builder.HasIndex(r => new { r.UserId, r.ProductId })
                 .IsUnique();
