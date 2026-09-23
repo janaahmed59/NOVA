@@ -29,6 +29,8 @@ public static class DependencyInjection
 
         services.AddScoped<IJwtService, JwtService>();
         services.Configure<JwtSettings>(configuration.GetSection("Jwt"));
+        services.AddHttpContextAccessor();
+        services.AddScoped<ICurrentUser, CurrentUser>();
         return services;
     }
 }

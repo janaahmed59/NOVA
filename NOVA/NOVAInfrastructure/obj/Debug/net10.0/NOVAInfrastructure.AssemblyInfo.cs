@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NOVAInfrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbaf66b6ac37f3f657a36467c5dfb9c1d3a2fa23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b49e969a77e791c21c937bce23180fb74b082693")]
 [assembly: System.Reflection.AssemblyProductAttribute("NOVAInfrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NOVAInfrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
