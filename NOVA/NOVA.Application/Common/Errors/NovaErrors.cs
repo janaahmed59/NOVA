@@ -97,5 +97,11 @@ namespace NOVA.Application.Common.Errors
             "INVALID_FILE_TYPE",
             "The uploaded file is not an allowed image type.");
 
+
+        public static readonly Error InvalidCredentials =
+        Error.Business(
+            "INVALID_CREDENTIALS",
+            "The provided credentials are invalid.");
+
     }
 }

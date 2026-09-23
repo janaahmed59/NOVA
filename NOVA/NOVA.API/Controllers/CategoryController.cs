@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using NOVA.Application.Features.Categories.Queries.GetCategoryById;
 using NOVA.Application.Features.Categories.Queries.GetCategories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NOVA.API.Controllers
 {

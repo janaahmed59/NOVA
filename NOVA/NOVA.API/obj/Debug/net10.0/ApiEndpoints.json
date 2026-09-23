@@ -1,5 +1,102 @@
 [
   {
+    "ContainingType": "NOVA.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "NOVA.Application.Features.User.Command.Login.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[MediatR.Unit, MediatR.Contracts, Version=2.0.1.0, Culture=neutral, PublicKeyToken=bb9a41a5e8aaa7e2]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "NOVA.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/v1/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NOVA.Application.Features.User.Command.Register.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[MediatR.Unit, MediatR.Contracts, Version=2.0.1.0, Culture=neutral, PublicKeyToken=bb9a41a5e8aaa7e2]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "NOVA.API.Common.Responses.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      }
+    ]
+  },
+  {
     "ContainingType": "NOVA.API.Controllers.CategoryController",
     "Method": "GetAllCategories",
     "RelativePath": "api/v1/categories",

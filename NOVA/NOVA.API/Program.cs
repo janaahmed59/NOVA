@@ -1,4 +1,5 @@
 
+using NOVA.API.Extension;
 using NOVA.API.Extensions;
 using NOVA.API.Middlewares;
 using NOVA.Application;
@@ -10,10 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddNovaSwagger();
+builder.Services.AddSwaggerService();
 
 builder.Services.AddApplicationServices();
-
+builder.Services.AddAuthenticationService(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration);
 
 var app = builder.Build();

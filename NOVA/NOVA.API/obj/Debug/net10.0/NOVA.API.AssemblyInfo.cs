@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ad13585e-68f1-400a-92c4-5601d8bf47b1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NOVA.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88bacd6f4ee2057a896d2985c11f8540df2596f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbaf66b6ac37f3f657a36467c5dfb9c1d3a2fa23")]
 [assembly: System.Reflection.AssemblyProductAttribute("NOVA.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NOVA.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

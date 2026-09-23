@@ -58,7 +58,7 @@ namespace NOVAInfrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Addresses");
+                    b.ToTable("Addresses", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.Cart", b =>
@@ -77,7 +77,7 @@ namespace NOVAInfrastructure.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("Carts");
+                    b.ToTable("Carts", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.CartItem", b =>
@@ -104,7 +104,7 @@ namespace NOVAInfrastructure.Migrations
                     b.HasIndex("CartId", "ProductId")
                         .IsUnique();
 
-                    b.ToTable("CartItems");
+                    b.ToTable("CartItems", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.Category", b =>
@@ -136,7 +136,7 @@ namespace NOVAInfrastructure.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.Order", b =>
@@ -171,7 +171,7 @@ namespace NOVAInfrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.OrderItem", b =>
@@ -206,7 +206,7 @@ namespace NOVAInfrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderItems");
+                    b.ToTable("OrderItems", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.Product", b =>
@@ -253,7 +253,7 @@ namespace NOVAInfrastructure.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.ProductImage", b =>
@@ -281,7 +281,7 @@ namespace NOVAInfrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImages");
+                    b.ToTable("ProductImages", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.Review", b =>
@@ -317,7 +317,7 @@ namespace NOVAInfrastructure.Migrations
                     b.HasIndex("UserId", "ProductId")
                         .IsUnique();
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.User", b =>
@@ -358,7 +358,7 @@ namespace NOVAInfrastructure.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("NOVA.Domain.Entities.Address", b =>

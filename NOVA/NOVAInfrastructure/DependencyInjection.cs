@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NOVA.Application.Common.Interfaces;
 using NOVA.Domain.Entities;
+using NOVA.Infrastructure.Services;
+using NOVAInfrastructure.Configuration;
 using NOVAInfrastructure.Persistence;
 using NOVAInfrastructure.Services;
 namespace NOVAInfrastructure;
@@ -24,6 +26,9 @@ public static class DependencyInjection
 
         services.AddScoped<IPasswordHasher, PasswordHasher>();
         services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+
+        services.AddScoped<IJwtService, JwtService>();
+        services.Configure<JwtSettings>(configuration.GetSection("Jwt"));
         return services;
     }
 }

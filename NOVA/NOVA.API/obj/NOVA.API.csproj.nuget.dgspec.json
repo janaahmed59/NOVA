@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj": {}
+    "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj": {}
   },
   "projects": {
-    "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj": {
+    "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj",
+        "projectUniqueName": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj",
         "projectName": "NOVA.API",
-        "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj",
-        "packagesPath": "C:\\Users\\AL-MOSTAFA\\.nuget\\packages\\",
-        "outputPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.API\\obj\\",
+        "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\NOVA.API.csproj",
+        "packagesPath": "E:\\Programs\\NuGet\\packages",
+        "outputPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj": {
-                "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj"
+              "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj": {
+                "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj"
               },
-              "E:\\janjonnnn\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj": {
-                "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj"
+              "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj": {
+                "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj"
               }
             }
           }
@@ -52,13 +52,17 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.12, )"
@@ -93,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -511,14 +515,14 @@
         }
       }
     },
-    "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj": {
+    "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
+        "projectUniqueName": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
         "projectName": "NOVA.Application",
-        "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
-        "packagesPath": "C:\\Users\\AL-MOSTAFA\\.nuget\\packages\\",
-        "outputPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\obj\\",
+        "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
+        "packagesPath": "E:\\Programs\\NuGet\\packages",
+        "outputPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -540,8 +544,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj": {
-                "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj"
+              "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj": {
+                "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj"
               }
             }
           }
@@ -556,7 +560,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -588,7 +592,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -866,14 +870,14 @@
         }
       }
     },
-    "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj": {
+    "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj",
+        "projectUniqueName": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj",
         "projectName": "NOVA.Domain",
-        "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj",
-        "packagesPath": "C:\\Users\\AL-MOSTAFA\\.nuget\\packages\\",
-        "outputPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\obj\\",
+        "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj",
+        "packagesPath": "E:\\Programs\\NuGet\\packages",
+        "outputPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -907,7 +911,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -929,7 +933,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1207,14 +1211,14 @@
         }
       }
     },
-    "E:\\janjonnnn\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj": {
+    "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\janjonnnn\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj",
+        "projectUniqueName": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj",
         "projectName": "NOVAInfrastructure",
-        "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\AL-MOSTAFA\\.nuget\\packages\\",
-        "outputPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVAInfrastructure\\obj\\",
+        "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj",
+        "packagesPath": "E:\\Programs\\NuGet\\packages",
+        "outputPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1236,11 +1240,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj": {
-                "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj"
+              "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj": {
+                "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj"
               },
-              "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj": {
-                "projectPath": "E:\\janjonnnn\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj"
+              "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj": {
+                "projectPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\NOVA.Domain.csproj"
               }
             }
           }
@@ -1255,7 +1259,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -1301,7 +1305,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
