@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using NOVA.API.Common.Responses;
 using NOVA.Application.Features.User.Command.Login;
+using NOVA.Application.Features.User.Command.RefreshTokens;
 using NOVA.Application.Features.User.Command.Register;
 using NOVA.Domain.Common.Results;
 
@@ -35,6 +36,16 @@ namespace NOVA.API.Controllers
             var result = await sender.Send(command, cancellationToken);
             return HandleResult(result, OkEnvelope);
         }
+        [HttpPost("refresh")]
+        [ProducesResponseType(typeof(ApiResponse<Unit>), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
+        public async Task<ActionResult> Refresh([FromBody] RefreshTokenCommand command, CancellationToken cancellationToken)
+        {
+            var result = await sender.Send(command, cancellationToken);
+
+            return HandleResult(result, OkEnvelope);
+        }
+
 
 
     }

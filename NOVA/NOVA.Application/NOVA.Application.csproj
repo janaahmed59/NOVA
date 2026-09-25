@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\User\Command\RefreshToken\**" />
+    <EmbeddedResource Remove="Features\User\Command\RefreshToken\**" />
+    <None Remove="Features\User\Command\RefreshToken\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MediatR" Version="14.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.12" />
   </ItemGroup>

@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{315A6859-F8AE-FFDB-92BE-30952C2F9B46}|NOVAInfrastructure\\NOVAInfrastructure.csproj|e:\\janjonnnn\\projects\\nova\\nova\\novainfrastructure\\services\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{315A6859-F8AE-FFDB-92BE-30952C2F9B46}|NOVAInfrastructure\\NOVAInfrastructure.csproj|solutionrelative:novainfrastructure\\services\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\nova.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\nova.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{315A6859-F8AE-FFDB-92BE-30952C2F9B46}|NOVAInfrastructure\\NOVAInfrastructure.csproj|e:\\janjonnnn\\projects\\nova\\nova\\novainfrastructure\\novainfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{315A6859-F8AE-FFDB-92BE-30952C2F9B46}|NOVAInfrastructure\\NOVAInfrastructure.csproj|solutionrelative:novainfrastructure\\novainfrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\common\\interfaces\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\common\\interfaces\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,59 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NOVAInfrastructure",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj",
-              "RelativeDocumentMoniker": "NOVAInfrastructure\\NOVAInfrastructure.csproj",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\NOVAInfrastructure.csproj",
-              "RelativeToolTip": "NOVAInfrastructure\\NOVAInfrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-23T17:03:09.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NOVA.Application",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
-              "RelativeDocumentMoniker": "NOVA.Application\\NOVA.Application.csproj",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
-              "RelativeToolTip": "NOVA.Application\\NOVA.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-23T17:03:01.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CurrentUser.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\Services\\CurrentUser.cs",
-              "RelativeDocumentMoniker": "NOVAInfrastructure\\Services\\CurrentUser.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVAInfrastructure\\Services\\CurrentUser.cs*",
-              "RelativeToolTip": "NOVAInfrastructure\\Services\\CurrentUser.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T16:50:36.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICurrentUser.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Common\\Interfaces\\ICurrentUser.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Common\\Interfaces\\ICurrentUser.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Common\\Interfaces\\ICurrentUser.cs*",
-              "RelativeToolTip": "NOVA.Application\\Common\\Interfaces\\ICurrentUser.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T16:37:44.734Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

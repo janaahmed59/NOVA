@@ -12,11 +12,13 @@ namespace NOVA.Application.Features.User.Command.Login
         private readonly IApplicationDbContext _context;
         private readonly IPasswordHasher _passwordHasher;
         private readonly IJwtService _jwtService;
-        public LoginCommandHandler(IApplicationDbContext context, IPasswordHasher passwordHasher, IJwtService jwtService)
+        private readonly IRefreshTokenService _refreshTokenService;
+        public LoginCommandHandler(IApplicationDbContext context, IPasswordHasher passwordHasher, IJwtService jwtService, IRefreshTokenService refreshTokenService)
         {
             _context = context;
             _passwordHasher = passwordHasher;
             _jwtService = jwtService;
+            _refreshTokenService = refreshTokenService;
         }
         public async Task<Result<LoginResponse>> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
@@ -34,13 +36,26 @@ namespace NOVA.Application.Features.User.Command.Login
             {
                 return Result<LoginResponse>.Failure(NovaErrors.AccountDeactivated);
             }
-            var passwordIsvalid = _passwordHasher.VerifyPassword(user, request.Password, user.PasswordHash);
-            if (!passwordIsvalid)
+            var passwordIsValid = _passwordHasher.VerifyPassword(user, request.Password, user.PasswordHash);
+            if (!passwordIsValid)
             {
                 return Result<LoginResponse>.Failure(NovaErrors.InvalidCredentials);
             }
             var accessToken = _jwtService.GenerateAccessToken(user);
-            var result = new LoginResponse(user.FullName, user.Email, accessToken);
+
+            var refreshToken = _refreshTokenService.GenerateToken();
+
+            var refreshTokenHash = _refreshTokenService.HashToken(refreshToken);
+            var refreshTokenEntity = new RefreshToken
+            {
+                TokenHash = refreshTokenHash,
+                UserId = user.Id,
+                CreatedAt = DateTime.UtcNow,
+                ExpiresAt = _refreshTokenService.GetExpiration()
+            };
+            _context.RefreshTokens.Add(refreshTokenEntity);
+            await _context.SaveChangesAsync(cancellationToken);
+            var result = new LoginResponse(user.FullName, user.Email, accessToken, refreshToken);
             return Result<LoginResponse>.Success(result);
         }
     }

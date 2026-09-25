@@ -18,6 +18,7 @@ namespace NOVA.Application.Common.Interfaces
         DbSet<Address> Addresses { get; }
         DbSet<ProductImage> ProductImages { get; }
         DbSet<Review> Reviews { get; }
+        DbSet<RefreshToken> RefreshTokens { get; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
         EntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;

@@ -25,7 +25,7 @@ namespace NOVAInfrastructure.Persistence
         public DbSet<ProductImage> ProductImages => Set<ProductImage>();
         public DbSet<Review> Reviews => Set<Review>();
 
-
+        public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
         public Task<IDbContextTransaction> BeginTransactionAsync(CancellationToken cancellationToken = default)
             => Database.BeginTransactionAsync(cancellationToken);
 
@@ -34,6 +34,7 @@ namespace NOVAInfrastructure.Persistence
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(
                 typeof(ApplicationDbContext).Assembly);
+
         }
     }
 }

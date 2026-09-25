@@ -8,6 +8,7 @@ namespace NOVAInfrastructure.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Order> builder)
         {
+
             builder.HasKey(o => o.Id);
 
             builder.Property(o => o.TotalAmount)

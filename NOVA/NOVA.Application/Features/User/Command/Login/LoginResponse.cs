@@ -8,5 +8,6 @@ namespace NOVA.Application.Features.User.Command.Login
     (
          string FullName,
          string Email,
-         string AccessToken);
+         string AccessToken,
+         string RefreshToken);
 }
