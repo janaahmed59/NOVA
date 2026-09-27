@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "c0TWf+eMkHU=",
+  "dgSpecHash": "2ly+T8VuqjI=",
   "success": true,
   "projectFilePath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\NOVA.Application.csproj",
   "expectedPackageFiles": [
+    "E:\\Programs\\NuGet\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "E:\\Programs\\NuGet\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "E:\\Programs\\NuGet\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
     "E:\\Programs\\NuGet\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "E:\\Programs\\NuGet\\packages\\microsoft.entityframeworkcore\\10.0.12\\microsoft.entityframeworkcore.10.0.12.nupkg.sha512",

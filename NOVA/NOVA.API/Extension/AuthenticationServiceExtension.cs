@@ -29,6 +29,8 @@ namespace NOVA.API.Extension
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:SecretKey"]!))
                 };
             });
+            services.AddAuthorization(); 
+
             return services;
         }
     }

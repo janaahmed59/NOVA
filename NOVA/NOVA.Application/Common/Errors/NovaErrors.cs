@@ -99,7 +99,7 @@ namespace NOVA.Application.Common.Errors
 
 
         public static readonly Error InvalidCredentials =
-        Error.Business(
+        Error.Unauthorized(
             "INVALID_CREDENTIALS",
             "The provided credentials are invalid.");
 

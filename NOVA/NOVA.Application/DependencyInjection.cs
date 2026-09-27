@@ -1,5 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
 using MediatR;
+using NOVA.Application.Common.Behaviors;
+
 namespace NOVA.Application
 {
     public static class DependencyInjection
@@ -10,6 +13,8 @@ namespace NOVA.Application
             var assembly = typeof(DependencyInjection).Assembly;
 
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
+            services.AddValidatorsFromAssembly(assembly);
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
             return services;
         }
