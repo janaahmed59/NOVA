@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1E3B2CC-2942-4E84-5086-720B98D9BDAA}|NOVA.Domain\\NOVA.Domain.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1E3B2CC-2942-4E84-5086-720B98D9BDAA}|NOVA.Domain\\NOVA.Domain.csproj|solutionrelative:nova.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1E3B2CC-2942-4E84-5086-720B98D9BDAA}|NOVA.Domain\\NOVA.Domain.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1E3B2CC-2942-4E84-5086-720B98D9BDAA}|NOVA.Domain\\NOVA.Domain.csproj|solutionrelative:nova.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\products\\command\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\products\\command\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\products\\command\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\products\\command\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\categories\\commands\\updatecategory\\updatecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\categories\\commands\\updatecategory\\updatecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E35A384-48EE-8EA4-6220-8F0516DE8B6E}|NOVA.API\\NOVA.API.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E35A384-48EE-8EA4-6220-8F0516DE8B6E}|NOVA.API\\NOVA.API.csproj|solutionrelative:nova.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateProductCommand.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
+              "DocumentIndex": 0,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "NOVA.Domain\\Entities\\CartItem.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "NOVA.Domain\\Entities\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:35:28.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateProductCommandHandler.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:33:38.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateCategoryCommandHandler.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:18:50.128Z",
+              "WhenOpened": "2026-09-29T08:12:33.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateCategoryCommand.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "NOVA.Domain\\Entities\\Cart.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "NOVA.Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:10:47.504Z",
+              "WhenOpened": "2026-09-29T08:12:19.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateCategoryResponse.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "NOVA.API\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "NOVA.API\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T06:09:45.524Z",
+              "WhenOpened": "2026-09-29T08:12:06.086Z",
               "EditorCaption": ""
             }
           ]

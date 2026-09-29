@@ -22,4 +22,8 @@
     <ProjectReference Include="..\NOVA.Domain\NOVA.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Cart\Queries\" />
+  </ItemGroup>
+
 </Project>

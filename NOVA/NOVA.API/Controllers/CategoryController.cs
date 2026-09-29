@@ -13,7 +13,7 @@ using System.Linq.Expressions;
 namespace NOVA.API.Controllers
 {
     [Route("api/v1/categories")]
-    [ApiController]
+    [Authorize]
     public class CategoryController(ISender sender) : BaseApiController
     {
         [HttpGet("{id:int}")]

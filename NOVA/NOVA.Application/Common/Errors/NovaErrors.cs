@@ -103,5 +103,9 @@ namespace NOVA.Application.Common.Errors
             "INVALID_CREDENTIALS",
             "The provided credentials are invalid.");
 
+        public static readonly Error ProductDeactivated =
+        Error.Business("PRODUCT_INACTIVE", "This product is no longer available.");
+
+        
     }
 }
