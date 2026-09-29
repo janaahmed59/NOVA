@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using NOVA.Application.Common.Errors;
 using NOVA.Application.Common.Interfaces;
@@ -16,9 +16,10 @@ namespace NOVA.Application.Features.Products.Queries.GetProductById
         public async Task<Result<ProductResponse>> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             var response = await context.Products.AsNoTracking()
-                .Where(p => p.Id == request.Id)
+                .Where(p => p.Id == request.Id && p.IsActive)
                 .Select(product => new ProductResponse
                 {
+                    Id = product.Id,
                     Name = product.Name,
                     Description = product.Description,
                     Price = product.Price,

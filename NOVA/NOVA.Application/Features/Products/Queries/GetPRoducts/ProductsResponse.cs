@@ -3,6 +3,7 @@ namespace NOVA.Application.Features.Products.Queries.GetPRoducts
 {
     public class ProductsResponse
     {
+        public int Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
         public decimal Price { get; set; }

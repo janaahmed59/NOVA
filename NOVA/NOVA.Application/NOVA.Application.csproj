@@ -22,10 +22,4 @@
     <ProjectReference Include="..\NOVA.Domain\NOVA.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Products\Command\DeleteProduct\" />
-    <Folder Include="Features\Products\Command\DeleteProductById\" />
-    <Folder Include="Features\Products\Command\UpdateProduct\" />
-  </ItemGroup>
-
 </Project>

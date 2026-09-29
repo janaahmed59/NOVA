@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using NOVA.Application.Common.Interfaces;
 using NOVA.Application.Pagination;
@@ -21,21 +21,25 @@ namespace NOVA.Application.Features.Categories.Queries.GetCategories
                 .Where(c => c.IsActive)
                 .Select(cr => new CategoriesResponse
                 {
+                    Id = cr.Id,
                     Name = cr.Name,
                     Description = cr.Description,
                     ImageUrl = cr.ImageUrl,
-                    Products = cr.Products.Select(p => new ProductsResponse
-                    {
-                        Name = p.Name,
-                        Description = p.Description,
-                        Price = p.Price,
-                        StockQuantity = p.StockQuantity,
-                        CategoryName = cr.Name,
-                        ProductImage = p.Images
-                        .Where(i => i.IsMain).
-                        Select(pi => pi.ImageUrl)
-                        .FirstOrDefault()
-                    }).ToList()
+                    Products = cr.Products
+                        .Where(p => p.IsActive)
+                        .Select(p => new ProductsResponse
+                        {
+                            Id = p.Id,
+                            Name = p.Name,
+                            Description = p.Description,
+                            Price = p.Price,
+                            StockQuantity = p.StockQuantity,
+                            CategoryName = cr.Name,
+                            ProductImage = p.Images
+                                .OrderByDescending(i => i.IsMain)
+                                .Select(pi => pi.ImageUrl)
+                                .FirstOrDefault()
+                        }).ToList()
                 });
             var TotalCount = await Categories.CountAsync(cancellationToken);
             var pagedCategories = await Categories

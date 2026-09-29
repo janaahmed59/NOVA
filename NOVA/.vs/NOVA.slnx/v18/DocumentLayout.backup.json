@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\categories\\commands\\updatecategory\\updatecategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\products\\command\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\products\\command\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\products\\command\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\products\\command\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\categories\\commands\\updatecategory\\updatecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\categories\\commands\\updatecategory\\updatecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeToolTip": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:35:28.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "NOVA.Application\\Features\\Products\\Command\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:33:38.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateCategoryCommandHandler.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "RelativeToolTip": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:18:50.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateCategoryCommand.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "RelativeToolTip": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:10:47.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateCategoryResponse.cs",
+              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
+              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
+              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
+              "RelativeToolTip": "NOVA.Application\\Features\\Categories\\Commands\\UpdateCategory\\UpdateCategoryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T06:09:45.524Z",
+              "EditorCaption": ""
             }
           ]
         }

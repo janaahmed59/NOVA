@@ -1,4 +1,4 @@
-﻿using MediatR;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using NOVA.Application.Common.Errors;
 using NOVA.Application.Common.Interfaces;
@@ -19,23 +19,28 @@ namespace NOVA.Application.Features.Categories.Queries.GetCategoryById
         {
             
             var response = await db.Categories
-                .Where(c => c.Id == request.id)
+                .Where(c => c.Id == request.id && c.IsActive)
                 .Select(c => new CategoryResponse
                 {
+                    Id = c.Id,
                     Name = c.Name,
                     Description = c.Description,
                     ImageUrl = c.ImageUrl,
-                    Products = c.Products.Select(p => new ProductsResponse
-                    {
-                        Name = p.Name,
-                        Description = p.Description,
-                        Price = p.Price,
-                        StockQuantity = p.StockQuantity,
-                        CategoryName = c.Name,
-                        ProductImage = p.Images.Where(i=> i.IsMain)
-                        .Select(i => i.ImageUrl)
-                        .FirstOrDefault()
-                    }).ToList()
+                    Products = c.Products
+                        .Where(p => p.IsActive)
+                        .Select(p => new ProductsResponse
+                        {
+                            Id = p.Id,
+                            Name = p.Name,
+                            Description = p.Description,
+                            Price = p.Price,
+                            StockQuantity = p.StockQuantity,
+                            CategoryName = c.Name,
+                            ProductImage = p.Images
+                                .OrderByDescending(i => i.IsMain)
+                                .Select(i => i.ImageUrl)
+                                .FirstOrDefault()
+                        }).ToList()
                 })
                 .FirstOrDefaultAsync(ct);
             if (response is null)

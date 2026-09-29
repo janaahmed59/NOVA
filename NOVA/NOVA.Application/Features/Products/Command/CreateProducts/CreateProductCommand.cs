@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using MediatR;
+using NOVA.Domain.Common.Results;
 namespace NOVA.Application.Features.Products.Command.CreateProducts
 {
-    internal class CreateProductCommand
-    {
-    }
+    public record CreateProductCommand(
+    string Name,
+    string? Description,
+    decimal Price,
+    int CategoryId,
+    int StockQuantity,
+    List<string>? Images
+) : IRequest<Result<CreateProductResponse>>;
 }
