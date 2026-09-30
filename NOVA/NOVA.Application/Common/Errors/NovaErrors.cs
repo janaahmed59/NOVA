@@ -106,6 +106,8 @@ namespace NOVA.Application.Common.Errors
         public static readonly Error ProductDeactivated =
         Error.Business("PRODUCT_INACTIVE", "This product is no longer available.");
 
-        
+        public static readonly Error CartIsEmpty =
+        Error.Conflict("CART_EMPTY", "Cannot place an order with an empty cart.");
+
     }
 }
