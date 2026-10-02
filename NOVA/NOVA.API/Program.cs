@@ -1,9 +1,10 @@
-
 using NOVA.API.Extension;
 using NOVA.API.Extensions;
 using NOVA.API.Middlewares;
 using NOVA.Application;
 using NOVAInfrastructure;
+using NOVAInfrastructure.Persistence;
+using NOVAInfrastructure.Persistence.Seed;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,6 +26,14 @@ app.UseSwaggerUI(options =>
 {
     options.ConfigureNovaSwaggerUI();
 });
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider
+        .GetRequiredService<ApplicationDbContext>();
+
+    await DbInitializer.InitializeAsync(context);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

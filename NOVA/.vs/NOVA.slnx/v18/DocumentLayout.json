@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\address\\command\\createaddresscommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\address\\command\\createaddresscommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|e:\\janjonnnn\\projects\\nova\\nova\\nova.application\\features\\user\\command\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FF8A655-1045-8DF6-E501-D9E05B2EF78F}|NOVA.Application\\NOVA.Application.csproj|solutionrelative:nova.application\\features\\user\\command\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,32 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateAddressCommandValidator.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Address\\Command\\CreateAddressCommandValidator.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\Address\\Command\\CreateAddressCommandValidator.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\Address\\Command\\CreateAddressCommandValidator.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\Address\\Command\\CreateAddressCommandValidator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T14:22:09.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterCommandValidator.cs",
-              "DocumentMoniker": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\User\\Command\\Register\\RegisterCommandValidator.cs",
-              "RelativeDocumentMoniker": "NOVA.Application\\Features\\User\\Command\\Register\\RegisterCommandValidator.cs",
-              "ToolTip": "E:\\janjonnnn\\Projects\\NOVA\\NOVA\\NOVA.Application\\Features\\User\\Command\\Register\\RegisterCommandValidator.cs",
-              "RelativeToolTip": "NOVA.Application\\Features\\User\\Command\\Register\\RegisterCommandValidator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T14:18:28.021Z",
-              "EditorCaption": ""
             }
           ]
         }

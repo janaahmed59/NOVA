@@ -23,8 +23,8 @@ namespace NOVAInfrastructure.Persistence.Configurations
             builder.Property(c => c.ImageUrl)
                 .HasMaxLength(500);
 
-            //builder.Property(c => c.IsActive)
-            //     .HasDefaultValue(true);
+            builder.Property(c => c.IsActive)
+                 .HasDefaultValue(true);
         }
     }
 }
