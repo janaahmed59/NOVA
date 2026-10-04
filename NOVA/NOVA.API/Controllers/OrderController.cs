@@ -79,7 +79,7 @@ namespace NOVA.API.Controllers
         // 5. تعديل حالة الطلب (خاص بالأدمن فقط)
         [HttpPatch("{id:int}/status")]
         [Authorize(Roles = "Admin")]
-        [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse<OrderResponse>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status403Forbidden)]
         [ProducesResponseType(typeof(ApiResponse<object>), StatusCodes.Status404NotFound)]

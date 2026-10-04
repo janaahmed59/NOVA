@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using NOVA.Application.Common.Interfaces;
+using NOVA.Application.Features.Reviews.Common;
 using NOVA.Application.Pagination;
 using NOVA.Domain.Common.Results;
 using NOVA.Domain.Entities;
@@ -37,7 +38,8 @@ namespace NOVA.Application.Features.Products.Queries.GetPRoducts
                 .Skip((request.Page - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .ToListAsync(cancellationToken);
-            return new PagedResult<ProductsResponse>
+
+            var result = new PagedResult<ProductsResponse>
             {
                 Items = pagedProducts,
                 TotalItems = totalCount,
@@ -45,6 +47,8 @@ namespace NOVA.Application.Features.Products.Queries.GetPRoducts
                 Page = request.Page,
                 PageSize = request.PageSize
             };
+            return Result<PagedResult<ProductsResponse>>.Success(result);
+            
         }
     }
 }
