@@ -19,10 +19,10 @@ public class CurrentUser : ICurrentUser
     {
         get
         {
-            var userId = _httpContextAccessor
-                .HttpContext?
-                .User
-                .FindFirstValue(JwtRegisteredClaimNames.Sub);
+            var user = _httpContextAccessor.HttpContext?.User;
+
+            var userId = user?.FindFirstValue(JwtRegisteredClaimNames.Sub)
+                      ?? user?.FindFirstValue(ClaimTypes.NameIdentifier);
 
             return int.TryParse(userId, out var id)
                 ? id

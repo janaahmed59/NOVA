@@ -23,6 +23,7 @@ public class JwtService : IJwtService
         var claims = new List<Claim>
         {
             new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new(ClaimTypes.NameIdentifier, user.Id.ToString()),   // 👈 ضيفي السطر ده
             new(JwtRegisteredClaimNames.Email, user.Email!),
             new(ClaimTypes.Role, user.Role.ToString())
         };
